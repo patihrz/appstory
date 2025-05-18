@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="public/images/appstory-512.png" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicoding Story App</title>
+    <meta name="theme-color" content="#2D3E50">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+    <link rel="stylesheet" href="/src/styles/styles.css"> </head>
+  <body>
+    <a href="#main-content" class="skip-link">Lompat ke Konten Utama</a>
+    <main id="main-content"> </main>
+    <header class="app-header">
+      <nav class="navbar container">
+        <a href="#" class="navbar-brand">
+          <img src="./public/images/appstory-512.png" id="" class="navbar-logo"> Patihrz StoryApp
+        </a>
+        <button class="navbar-toggler" id="navbarToggler" aria-label="Toggle navigation" aria-expanded="false">
+          <i class="fas fa-bars"></i> </button>
+        <div class="navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#add-story" class="nav-link">Tambah Cerita</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+            <li class="nav-item" id="nav-login"><a href="#login" class="nav-link">Login</a></li>
+            <li class="nav-item" id="nav-register"><a href="#register" class="nav-link">Register</a></li>
+            <li class="nav-item" id="nav-logout" style="display: none;"><button id="navbarLogoutButton" class="nav-link btn-link-logout">Logout</button></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="app-root">
+      </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     
+    <script type="module" src="/scripts/index.js"></script>
+  </body>
+</html>
