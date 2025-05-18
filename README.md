@@ -109,6 +109,4 @@ Aplikasi ini adalah submission untuk proyek akhir kelas "Belajar Fundamental Apl
 
 ## Kontributor
 
-* **[Nama Anda/patihrz]** - ([Link Profil GitHub Anda jika mau])
-
 Terima kasih kepada Dicoding atas materi pembelajaran dan API yang disediakan.
